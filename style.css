@@ -606,8 +606,6 @@ margin: 0 auto;
  border-radius: 4px;
  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-
 }
 
 .close-button{
@@ -637,7 +635,7 @@ margin: 0 auto;
 }
 
 .svg-close-button{
-  transition: fill 250ms cubic-bezier(0.4,  0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-close-button:hover{
   fill: #ffffff;
