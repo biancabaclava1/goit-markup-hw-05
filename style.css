@@ -59,7 +59,7 @@
 }
 
 .link-for-studio::after{
- 
+ content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -647,12 +647,11 @@ margin: 0 auto;
 .cards{
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards-images:hover {
+.cards:hover{
   transform: translateY(0%);
 }
-.cards:focus {
+.cards:focus{
   transform: translateY(0%);
-  
 }
 .cards-images{
   position: relative;
