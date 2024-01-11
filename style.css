@@ -647,10 +647,10 @@ margin: 0 auto;
 .cards{
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards:hover{
+.cards:hover .transition-paragraph-card-p{
   transform: translateY(0%);
 }
-.cards:focus{
+.cards:focus .transition-paragraph-card-p{
   transform: translateY(0%);
 }
 .cards-images{
